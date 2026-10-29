@@ -1,0 +1,22 @@
+Field,Saved value
+Record type,Public-safe HypNO investigation summary
+Assessment label,Not flagged by responding sources
+Assessment reason,3 usable provider results did not flag the selected address. This is not a safety guarantee.
+Observation,"HypNO observed 8 packets involving the selected remote address from 2026-10-28T14:29:00Z through 2026-10-28T14:30:00Z. The saved traffic is outbound, inbound and uses UDP."
+Provider response,"3 of 3 reviewed providers responded. 3 supplied a usable flag or no-flag result, and 0 flagged the address."
+Interpretation,"The selected address can be reviewed across packet evidence, destination context, provider responses, and supported Windows process evidence without treating one source as proof."
+What this does not prove,"An exact endpoint and time match ties this saved packet evidence to the displayed Windows process observation. It does not prove that the process or destination is safe or malicious. Provider results describe what those sources reported at their check times. They do not confirm what happened on this computer, and a no-flag result does not mean safe."
+Confirmed fact,The saved record confirms the packet observation and an exact endpoint/time process correlation.
+Process evidence,Exact endpoint and time correlation
+Process,DemoClient.exe
+PID,4242
+Executable,DemoClient.exe
+Service,DemoUpdateService
+Signature,valid signature
+Publisher,Example Software Publisher
+Next check 1,"Confirm the capture time, supplied local addresses, and whether the displayed direction matches the test conditions."
+Next check 2,"Verify the displayed process, PID, executable name, service, signature, and publisher against the live Windows event."
+Next check 3,"Review the hostname, network owner, ASN, and approximate location for the selected destination."
+Next check 4,"Compare current provider results and check times, using external lookups only after consent."
+Next check 5,"Check antivirus findings separately, then reproduce the connection under the same conditions before considering a firewall action."
+

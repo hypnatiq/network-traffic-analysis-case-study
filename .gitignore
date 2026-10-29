@@ -1,0 +1,27 @@
+# Private captures and machine data
+*.pcap
+*.pcapng
+*.cap
+*.etl
+*.db
+*.sqlite
+*.sqlite3
+*netstat*
+*registry*
+private/
+raw/
+
+# Secrets and local configuration
+.env
+.env.*
+*.key
+*.pem
+credentials*
+secrets*
+
+# Local working files
+.DS_Store
+Thumbs.db
+desktop.ini
+99 - Temporary Files/
+

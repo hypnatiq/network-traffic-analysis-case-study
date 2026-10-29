@@ -1,0 +1,9 @@
+category,verified_result,interpretation,limit
+extended_dataset,120656 rows imported with 0 skipped,Complete row-level import of the converted capture,Import completeness does not prove application attribution
+conversion,16 fields per packet record,Supports filtering by time protocol address port and service metadata,Some packets do not contain every field
+launch_tcp,3 initial outbound SYN packets to 2 destinations on TCP 443 with responses,No TCP port-scan pattern established in the reviewed launch window,Only the recorded window was reviewed
+inbound_tcp,No public inbound initial SYN packets observed,No unsolicited inbound TCP connection attempt established,Does not cover activity outside the capture
+udp_activity,High-volume consistent UDP flows isolated by address and port,Required process attribution rather than packet-count blocking,The packet capture did not identify the owning process
+background_traffic,DNS TLS QUIC and local discovery protocols were present,Full-interface captures include unrelated system and application traffic,Not every recorded packet belonged to the tested client
+final_conclusion,No malicious behavior or port scanning was established by the reviewed evidence,Continue only with process-aware follow-up before stronger action,The review does not certify the client or service as safe
+
