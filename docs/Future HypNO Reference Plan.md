@@ -27,4 +27,3 @@ The original and HypNO screenshots use different sanitized datasets. They compar
 The local GitHub-ready source contains the nine-image set and a public-safe HypNO CSV export. No website, live application link, GitHub repository, resume, or shared artifact was changed.
 
 Any external reference still requires Hanz's current publication approval.
-

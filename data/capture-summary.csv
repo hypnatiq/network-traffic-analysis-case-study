@@ -2,4 +2,3 @@ capture,recorded_date,duration_seconds,packet_count,file_size_bytes,public_descr
 initial_capture,2026-07-22,5.2821062,1276,654444,Short baseline capture
 client_open_capture,2026-07-22,22.4890809,3255,1845516,Application launch review
 extended_session,2026-07-22,891.9310405,120656,67653580,Extended connection-behavior review
-

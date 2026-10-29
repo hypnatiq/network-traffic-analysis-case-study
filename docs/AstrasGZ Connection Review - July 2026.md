@@ -82,4 +82,3 @@ It also did not prove the client or remote service was safe. The honest conclusi
 ## Privacy
 
 The public case study excludes raw packet captures, private addresses, remote endpoint lists, account identifiers, registry data, and local installation paths.
-

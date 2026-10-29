@@ -19,4 +19,3 @@ Next check 2,"Verify the displayed process, PID, executable name, service, signa
 Next check 3,"Review the hostname, network owner, ASN, and approximate location for the selected destination."
 Next check 4,"Compare current provider results and check times, using external lookups only after consent."
 Next check 5,"Check antivirus findings separately, then reproduce the connection under the same conditions before considering a firewall action."
-

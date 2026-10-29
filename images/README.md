@@ -33,4 +33,3 @@ The original and HypNO views use different sanitized datasets. The comparison de
 - Do not use the original registry-remnant screenshot.
 - Do not present a synthetic process as a real application observation.
 - Do not use a provider result as a safety guarantee.
-
