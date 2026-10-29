@@ -89,4 +89,4 @@ Original investigation: July 2026
 
 Sanitized HypNO workflow comparison: October 2026
 
-AstrasGZ reference: https://astrasgz.com/
+AstrasGZ reference - Astras GunZ Private Server: https://astrasgz.com/
