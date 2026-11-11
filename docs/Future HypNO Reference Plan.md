@@ -6,9 +6,9 @@ This case study documents the original network investigation.
 
 HypNO is the separate application that grew from the broader need to connect network observations with process identity, destination context, retained evidence, and guided response.
 
-## Completed local preparation
+## Current public state
 
-HypNO `0.83.9-dev` now has a sanitized investigation demonstration that shows:
+A sanitized HypNO development build now has a public investigation demonstration that shows:
 
 1. capture summary and limitations
 2. selected remote-address and UDP 19299 filtering
@@ -22,8 +22,8 @@ HypNO `0.83.9-dev` now has a sanitized investigation demonstration that shows:
 
 The original and HypNO screenshots use different sanitized datasets. They compare the same task and do not claim HypNO performed the July 2026 analysis.
 
-## Prepared references
+## Published references
 
-The local GitHub-ready source contains the nine-image set and a public-safe HypNO CSV export. No website, live application link, GitHub repository, resume, or shared artifact was changed.
+This repository contains the nine-image set and a public-safe HypNO CSV export. The public comparison is now part of this GitHub case study.
 
-Any external reference still requires Hanz's current publication approval.
+The raw captures, private endpoint data, and unsanitized application evidence remain excluded. Any future external copy should link to this published record instead of recreating stronger claims from the screenshots alone.

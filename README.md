@@ -8,7 +8,7 @@ Bitdefender remained active for endpoint protection. This review answered a diff
 
 I used passive packet capture. I did not scan, probe, exploit, or modify the remote service.
 
-## What this demonstrates professionally
+## What I worked on
 
 This case study shows how I approach a network question without forcing a conclusion: define the capture window, preserve the original evidence, convert packet data into something searchable, filter by protocol and destination, separate observed traffic from assumptions, and write down the next evidence needed.
 
@@ -38,7 +38,7 @@ It documents only the traffic visible during the recorded capture windows. Proce
 
 ## How the workflow evolved in HypNO
 
-The original aggregator made imported rows searchable and viewable. HypNO `0.83.9-dev` now demonstrates the same investigation task with a guided path through capture summary, filters, packet evidence, destination context, available process evidence, provider context, a plain-language explanation, missing evidence, ordered next checks, and a saved assessment.
+The original aggregator made imported rows searchable and viewable. A later sanitized HypNO development build shows the same investigation task with a guided path through capture summary, filters, packet evidence, destination context, available process evidence, provider context, a plain-language explanation, missing evidence, ordered next checks, and a saved assessment.
 
 The public screenshots use deterministic sanitized or synthetic data. The original aggregator and HypNO screenshots do not use the same dataset, and HypNO is not presented as the tool that performed the July 2026 analysis.
 
@@ -69,7 +69,7 @@ This workflow became part of the early foundation that later informed HypNO, my 
 - Python and Flask
 - SQLite
 - CSV filtering and export
-- HypNO `0.83.9-dev` for the later sanitized workflow demonstration
+- HypNO for the later sanitized workflow demonstration
 
 ## Screenshots
 
