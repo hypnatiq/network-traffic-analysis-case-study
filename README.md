@@ -8,6 +8,12 @@ Bitdefender remained active for endpoint protection. This review answered a diff
 
 I used passive packet capture. I did not scan, probe, exploit, or modify the remote service.
 
+## What this demonstrates professionally
+
+This case study shows how I approach a network question without forcing a conclusion: define the capture window, preserve the original evidence, convert packet data into something searchable, filter by protocol and destination, separate observed traffic from assumptions, and write down the next evidence needed.
+
+The project supports my move toward network support and junior network engineering work. It is a controlled case study on my own system, not a claim of production packet-analysis ownership.
+
 ## What I built
 
 I captured three network windows, converted the longest PCAPNG capture into a structured CSV, and imported all 120,656 packet records into a local Flask and SQLite log aggregator.
