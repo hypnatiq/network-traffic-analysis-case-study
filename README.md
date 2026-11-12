@@ -12,7 +12,7 @@ I used passive packet capture. I did not scan, probe, exploit, or modify the rem
 
 This case study shows how I approach a network question without forcing a conclusion: define the capture window, preserve the original evidence, convert packet data into something searchable, filter by protocol and destination, separate observed traffic from assumptions, and write down the next evidence needed.
 
-I use this project to build practical network support skills while working toward a junior network engineer role. It is a controlled case study on my own system, not a claim of production packet-analysis ownership.
+I use this controlled case study on my own system to build practical skills in packet analysis, filtering, evidence review, and network troubleshooting while working toward a junior network engineer role.
 
 ## What I built
 
@@ -48,7 +48,7 @@ The selected synthetic HypNO example uses the approved label `Not flagged by res
 
 ## Why this matters
 
-The useful result was not a simple safe or unsafe label. The useful result was a repeatable method:
+The useful result was a repeatable method:
 
 1. Record a baseline.
 2. Capture the launch window.
@@ -96,3 +96,4 @@ Original investigation: July 2026
 Sanitized HypNO workflow comparison: October 2026
 
 AstrasGZ reference - Astras GunZ Private Server: https://astrasgz.com/
+
