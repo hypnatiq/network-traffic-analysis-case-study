@@ -23,7 +23,7 @@ The `hypno-investigation` folder contains nine images showing:
 8. the paired original-aggregator and HypNO comparison
 9. the HypNO `0.83.9-dev` About view
 
-The original and HypNO views use different sanitized datasets. The comparison demonstrates the same task, not a claim that HypNO performed the original July 2026 analysis.
+The original and HypNO views use different sanitized datasets. The comparison demonstrates the same investigation task. The original local viewer performed the July 2026 analysis, while HypNO shows how I later developed the workflow.
 
 ## Image rules
 
@@ -33,3 +33,4 @@ The original and HypNO views use different sanitized datasets. The comparison de
 - Do not use the original registry-remnant screenshot.
 - Do not present a synthetic process as a real application observation.
 - Do not use a provider result as a safety guarantee.
+
